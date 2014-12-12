@@ -1,0 +1,24 @@
+{
+  "name": "consistency",
+  "version": "0.0.1",
+  "description": "API versioning plugin for hapi.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/shakefon/consistency.git"
+  },
+  "keywords": [
+    "hapi",
+    "api",
+    "versioning"
+  ],
+  "author": "Dave Stevens <davestevens84@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakefon/consistency/issues"
+  },
+  "homepage": "https://github.com/shakefon/consistency"
+}
