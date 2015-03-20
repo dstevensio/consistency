@@ -42,7 +42,7 @@ server.register({
       path: '/test',
       handler: {
         versioned: {
-          'v1.0': reply({
+          'v1': reply({
             version: '1.0'
           }),
 
