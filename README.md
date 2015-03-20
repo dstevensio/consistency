@@ -10,21 +10,19 @@ A hapi.js plugin for versioning your API. Borne out of this talk: http://www.sli
 
 `npm install consistency`
 
-##Register plugin with your hapi application
+##Register plugin with your hapi application, provide the option(s) required for version detection.
 
 ```js
 server.register({
   register: require('consistency'),
   options: {
-    uriVersioning: true,
-    customHeaderVersioning: true,
-    acceptHeaderVersioning: true,
+    uriParam: 'apiVersion',
     acceptNamespace: 'consistencyExample',
     customHeaderKey: 'api-version'
   }
 }, function (err) {
   if (err) console.log('Consistency plugin failed to load');
-  
+
 });
 ```
 
@@ -48,4 +46,3 @@ Glue.compose(manifest, function (err, server) {
   ...
 });
 ```
-
