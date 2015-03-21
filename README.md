@@ -48,7 +48,7 @@ Glue.compose(manifest, function (err, server) {
 ##Versionize your Routes
 
 ###Array of handlers
-```
+```js
 server.route({
   id: 'array',
   method: 'GET',
@@ -72,7 +72,7 @@ server.route({
 
 ###Object of handlers
 
-```
+```js
 server.route({
     id: 'object',
     method: 'GET',
