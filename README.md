@@ -55,12 +55,16 @@ server.route({
   path: '/array',
   handler: {
     versioned: [
-      reply({
-        version: '1.0'
-      }),
-      reply({
-        version: '2.0'
-      })
+      function(request, reply) {
+        reply({
+          version: '1.0'
+        });
+      },
+      function(request, reply) {
+        reply({
+          version: '2.0'
+        });
+      }
     ]
   }
 });
@@ -75,17 +79,23 @@ server.route({
     path: '/object',
     handler: {
       versioned: {
-        'v1.0': reply({
-          version: '1.0'
-        }),
+        'v1.0': function(request, reply) {
+          reply({
+            version: '1.0'
+          });
+        },
 
-        'v2.0': reply({
-          version: '2.0'
-        }),
+        'v2.0': function(request, reply) {
+          reply({
+            version: '2.0'
+          });
+        },
 
-        'v1.5': reply({
-          version: '1.5'
-        })
+        'v1.5': function(request, reply) {
+          reply({
+            version: '1.5'
+          });
+        }
       }
     }
 });
