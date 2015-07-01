@@ -1,6 +1,6 @@
 {
   "name": "consistency",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "API versioning plugin for hapi.js",
   "main": "index.js",
   "scripts": {
