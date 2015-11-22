@@ -4,7 +4,7 @@
   "description": "API versioning plugin for hapi.js",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node node_modules/lab/bin/lab -a code -t 100 -m 15000 -L -v -C -r html -o coverage/coverage.html -r console -o stdout"
+    "test": "node node_modules/lab/bin/lab -a code -t 95 -m 15000 -L -v -C -r html -o coverage/coverage.html -r console -o stdout"
   },
   "repository": {
     "type": "git",
