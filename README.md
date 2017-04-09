@@ -1,5 +1,5 @@
 [![npm version](https://badge.fury.io/js/consistency.svg)](http://badge.fury.io/js/consistency)
-[![Build Status](https://secure.travis-ci.org/shakefon/consistency.svg)](http://travis-ci.org/shakefon/consistency)
+[![Build Status](https://secure.travis-ci.org/dstevensio/consistency.svg)](http://travis-ci.org/shakefon/consistency)
 
 Consistency
 -----------
