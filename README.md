@@ -6,11 +6,11 @@ Consistency
 
 A hapi.js plugin for versioning your API. Borne out of this talk: http://www.slideshare.net/shakefon/hapidays-2014
 
-##Installation
+## Installation
 
 `npm install consistency`
 
-##Register plugin with your hapi application, provide the option(s) required for version detection.
+## Register plugin with your hapi application, provide the option(s) required for version detection.
 
 ```js
 server.register({
@@ -45,9 +45,9 @@ Glue.compose(manifest, function (err, server) {
 });
 ```
 
-##Versionize your Routes
+## Versionize your Routes
 
-###Array of handlers
+### Array of handlers
 ```js
 server.route({
   id: 'array',
@@ -70,7 +70,7 @@ server.route({
 });
 ```
 
-###Object of handlers
+### Object of handlers
 
 ```js
 server.route({
@@ -101,7 +101,7 @@ server.route({
 });
 ```
 
-##Version Matching
+## Version Matching
 
 A version can be provided with or without the v prefix and can also be provided
 using the `latest` keyword which will use the latest versioned endpoint.
